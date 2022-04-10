@@ -1,0 +1,497 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-10T07:56:22.787Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4141628800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.Setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate the successful login using  multiple test data",
+        "description": "",
+        "id": "this-feature-login-feature-scenario;validate-the-successful-login-using--multiple-test-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 315390200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1293400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "Loginstep.i_click_on_the_Login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143179600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102227600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141904900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "Loginstep.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 919200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be Landed on the home page",
+            "match": {
+              "location": "Loginstep.i_should_be_Landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T07:56:27.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3872712500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.Setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate the successful login using  multiple test data",
+        "description": "",
+        "id": "this-feature-login-feature-scenario;validate-the-successful-login-using--multiple-test-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 387644200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 843800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "Loginstep.i_click_on_the_Login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137075300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username \"problem_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106627500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133824300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "Loginstep.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be Landed on the home page",
+            "match": {
+              "location": "Loginstep.i_should_be_Landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T07:56:32.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3271900900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.Setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify the error message we give incorrect  multiple test data",
+        "description": "",
+        "id": "this-feature-login-feature-scenario;verify-the-error-message-we-give-incorrect--multiple-test-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 202261100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 512200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "Loginstep.i_click_on_the_Login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138728400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93854800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the password \"pqr@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pqr@1234\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69978000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "Loginstep.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38192600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should get error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Loginstep.i_should_get_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature Login feature scenario",
+    "description": "",
+    "id": "this-feature-login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Saucedemo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "open swag lab application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 797100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "Loginstep.i_click_on_the_Login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142150900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101586100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginstep.i_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137820700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "Loginstep.i_click_on_the_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1465600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be Landed on the home page",
+            "match": {
+              "location": "Loginstep.i_should_be_Landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T07:56:36.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3392451700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.Setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "validate the product prices",
+        "description": "",
+        "id": "this-feature-lin-feature-scenario;validate-the-product-prices",
+        "after": [
+          {
+            "result": {
+              "duration": 245504600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseclassBasedemo.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43040200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on product page",
+            "match": {
+              "location": "Productstep.user_is_on_product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76307200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user compare the following product price",
+            "match": {
+              "location": "Productstep.user_compare_the_following_product_price(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light",
+                  "$9.99"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature Lin feature scenario",
+    "description": "",
+    "id": "this-feature-lin-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/product.feature",
+    "tags": []
+  }
+]
